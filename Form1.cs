@@ -19,9 +19,9 @@ namespace finaldelivery
 
         private void button7_Click(object sender, EventArgs e)
         {
-            // Kontrollera om alla obligatoriska kryssrutor är markerade
-            if (!checkBox1.Checked && !checkBox2.Checked && !checkBox3.Checked && !checkBox4.Checked && !checkBox5.Checked && !checkBox6.Checked && !checkBox7.Checked
-                && !checkBox8.Checked && !checkBox9.Checked && !checkBox10.Checked && !checkBox11.Checked && !checkBox12.Checked && !checkBox13.Checked && !checkBox14.Checked && !checkBox15.Checked)
+            // Kontrollerar så att åtminstonde en av checkboxarna är markerade 
+            if (!gurkaBox.Checked && !äppleBox.Checked && !spenatBox.Checked && !tomatBox.Checked && !bananBox.Checked && !gubbeBox.Checked && !potatisBox.Checked
+                && !pastaBox.Checked && !havreBox.Checked && !risBox.Checked && !checkBox11.Checked && !colaBox.Checked && !fantabox.Checked && !sevenBox.Checked && !celBox.Checked)
             {
                 MessageBox.Show("Please choose your food before you place an order.");
                 return;

@@ -42,12 +42,12 @@
             this.tabControl2 = new System.Windows.Forms.TabControl();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.gubbeBox = new System.Windows.Forms.CheckBox();
+            this.bananBox = new System.Windows.Forms.CheckBox();
+            this.tomatBox = new System.Windows.Forms.CheckBox();
+            this.spenatBox = new System.Windows.Forms.CheckBox();
+            this.äppleBox = new System.Windows.Forms.CheckBox();
+            this.gurkaBox = new System.Windows.Forms.CheckBox();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
@@ -58,10 +58,10 @@
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.checkBox11 = new System.Windows.Forms.CheckBox();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.checkBox10 = new System.Windows.Forms.CheckBox();
-            this.checkBox9 = new System.Windows.Forms.CheckBox();
-            this.checkBox8 = new System.Windows.Forms.CheckBox();
-            this.checkBox7 = new System.Windows.Forms.CheckBox();
+            this.risBox = new System.Windows.Forms.CheckBox();
+            this.havreBox = new System.Windows.Forms.CheckBox();
+            this.pastaBox = new System.Windows.Forms.CheckBox();
+            this.potatisBox = new System.Windows.Forms.CheckBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
@@ -72,10 +72,10 @@
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
             this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.checkBox15 = new System.Windows.Forms.CheckBox();
-            this.checkBox14 = new System.Windows.Forms.CheckBox();
-            this.checkBox12 = new System.Windows.Forms.CheckBox();
-            this.checkBox13 = new System.Windows.Forms.CheckBox();
+            this.celBox = new System.Windows.Forms.CheckBox();
+            this.sevenBox = new System.Windows.Forms.CheckBox();
+            this.colaBox = new System.Windows.Forms.CheckBox();
+            this.fantabox = new System.Windows.Forms.CheckBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label16 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -141,7 +141,7 @@
             // 
             this.button7.ForeColor = System.Drawing.Color.Black;
             this.button7.Location = new System.Drawing.Point(324, 183);
-            this.button7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button7.Margin = new System.Windows.Forms.Padding(2);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(100, 37);
             this.button7.TabIndex = 34;
@@ -200,7 +200,7 @@
             // txtName
             // 
             this.txtName.Location = new System.Drawing.Point(52, 18);
-            this.txtName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtName.Margin = new System.Windows.Forms.Padding(2);
             this.txtName.Multiline = true;
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(266, 19);
@@ -209,7 +209,7 @@
             // txtAdd
             // 
             this.txtAdd.Location = new System.Drawing.Point(66, 42);
-            this.txtAdd.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtAdd.Margin = new System.Windows.Forms.Padding(2);
             this.txtAdd.Multiline = true;
             this.txtAdd.Name = "txtAdd";
             this.txtAdd.Size = new System.Drawing.Size(252, 18);
@@ -218,7 +218,7 @@
             // txtCon
             // 
             this.txtCon.Location = new System.Drawing.Point(117, 63);
-            this.txtCon.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtCon.Margin = new System.Windows.Forms.Padding(2);
             this.txtCon.Multiline = true;
             this.txtCon.Name = "txtCon";
             this.txtCon.Size = new System.Drawing.Size(201, 19);
@@ -241,19 +241,19 @@
             this.tabPage3.Controls.Add(this.groupBox1);
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage3.Size = new System.Drawing.Size(429, 315);
             this.tabPage3.TabIndex = 0;
             this.tabPage3.Text = "Fruit&veg";
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.checkBox6);
-            this.groupBox1.Controls.Add(this.checkBox5);
-            this.groupBox1.Controls.Add(this.checkBox4);
-            this.groupBox1.Controls.Add(this.checkBox3);
-            this.groupBox1.Controls.Add(this.checkBox2);
-            this.groupBox1.Controls.Add(this.checkBox1);
+            this.groupBox1.Controls.Add(this.gubbeBox);
+            this.groupBox1.Controls.Add(this.bananBox);
+            this.groupBox1.Controls.Add(this.tomatBox);
+            this.groupBox1.Controls.Add(this.spenatBox);
+            this.groupBox1.Controls.Add(this.äppleBox);
+            this.groupBox1.Controls.Add(this.gurkaBox);
             this.groupBox1.Controls.Add(this.pictureBox11);
             this.groupBox1.Controls.Add(this.pictureBox10);
             this.groupBox1.Controls.Add(this.pictureBox5);
@@ -262,79 +262,79 @@
             this.groupBox1.Controls.Add(this.pictureBox2);
             this.groupBox1.Font = new System.Drawing.Font("Segoe UI Black", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(5, 5);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox1.Size = new System.Drawing.Size(403, 407);
             this.groupBox1.TabIndex = 23;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Veg and Fruit";
             // 
-            // checkBox6
+            // gubbeBox
             // 
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox6.Location = new System.Drawing.Point(269, 250);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(114, 19);
-            this.checkBox6.TabIndex = 49;
-            this.checkBox6.Text = "Strawberry 15 kr";
-            this.checkBox6.UseVisualStyleBackColor = true;
+            this.gubbeBox.AutoSize = true;
+            this.gubbeBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gubbeBox.Location = new System.Drawing.Point(269, 250);
+            this.gubbeBox.Name = "gubbeBox";
+            this.gubbeBox.Size = new System.Drawing.Size(114, 19);
+            this.gubbeBox.TabIndex = 49;
+            this.gubbeBox.Text = "Strawberry 15 kr";
+            this.gubbeBox.UseVisualStyleBackColor = true;
             // 
-            // checkBox5
+            // bananBox
             // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox5.Location = new System.Drawing.Point(132, 250);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(99, 19);
-            this.checkBox5.TabIndex = 48;
-            this.checkBox5.Text = "Banana 20 kr";
-            this.checkBox5.UseVisualStyleBackColor = true;
+            this.bananBox.AutoSize = true;
+            this.bananBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bananBox.Location = new System.Drawing.Point(132, 250);
+            this.bananBox.Name = "bananBox";
+            this.bananBox.Size = new System.Drawing.Size(99, 19);
+            this.bananBox.TabIndex = 48;
+            this.bananBox.Text = "Banana 20 kr";
+            this.bananBox.UseVisualStyleBackColor = true;
             // 
-            // checkBox4
+            // tomatBox
             // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox4.Location = new System.Drawing.Point(1, 250);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(97, 19);
-            this.checkBox4.TabIndex = 47;
-            this.checkBox4.Text = "Tomato 15 kr";
-            this.checkBox4.UseVisualStyleBackColor = true;
+            this.tomatBox.AutoSize = true;
+            this.tomatBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tomatBox.Location = new System.Drawing.Point(1, 250);
+            this.tomatBox.Name = "tomatBox";
+            this.tomatBox.Size = new System.Drawing.Size(97, 19);
+            this.tomatBox.TabIndex = 47;
+            this.tomatBox.Text = "Tomato 15 kr";
+            this.tomatBox.UseVisualStyleBackColor = true;
             // 
-            // checkBox3
+            // spenatBox
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox3.Location = new System.Drawing.Point(269, 118);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(94, 19);
-            this.checkBox3.TabIndex = 46;
-            this.checkBox3.Text = "Spinach 9 kr";
-            this.checkBox3.UseVisualStyleBackColor = true;
+            this.spenatBox.AutoSize = true;
+            this.spenatBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spenatBox.Location = new System.Drawing.Point(269, 118);
+            this.spenatBox.Name = "spenatBox";
+            this.spenatBox.Size = new System.Drawing.Size(94, 19);
+            this.spenatBox.TabIndex = 46;
+            this.spenatBox.Text = "Spinach 9 kr";
+            this.spenatBox.UseVisualStyleBackColor = true;
             // 
-            // checkBox2
+            // äppleBox
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox2.Location = new System.Drawing.Point(139, 118);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(80, 19);
-            this.checkBox2.TabIndex = 45;
-            this.checkBox2.Text = "Apple 5 kr";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.äppleBox.AutoSize = true;
+            this.äppleBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.äppleBox.Location = new System.Drawing.Point(139, 118);
+            this.äppleBox.Name = "äppleBox";
+            this.äppleBox.Size = new System.Drawing.Size(80, 19);
+            this.äppleBox.TabIndex = 45;
+            this.äppleBox.Text = "Apple 5 kr";
+            this.äppleBox.UseVisualStyleBackColor = true;
             // 
-            // checkBox1
+            // gurkaBox
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.Location = new System.Drawing.Point(1, 118);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(114, 19);
-            this.checkBox1.TabIndex = 44;
-            this.checkBox1.Text = "Cucumber 10 kr";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.gurkaBox.AutoSize = true;
+            this.gurkaBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gurkaBox.Location = new System.Drawing.Point(1, 118);
+            this.gurkaBox.Name = "gurkaBox";
+            this.gurkaBox.Size = new System.Drawing.Size(114, 19);
+            this.gurkaBox.TabIndex = 44;
+            this.gurkaBox.Text = "Cucumber 10 kr";
+            this.gurkaBox.UseVisualStyleBackColor = true;
             // 
             // pictureBox11
             // 
@@ -402,7 +402,7 @@
             this.tabPage4.Controls.Add(this.groupBox3);
             this.tabPage4.Location = new System.Drawing.Point(4, 22);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage4.Size = new System.Drawing.Size(429, 315);
             this.tabPage4.TabIndex = 1;
             this.tabPage4.Text = "Carbs";
@@ -411,19 +411,19 @@
             // 
             this.groupBox3.Controls.Add(this.checkBox11);
             this.groupBox3.Controls.Add(this.pictureBox12);
-            this.groupBox3.Controls.Add(this.checkBox10);
-            this.groupBox3.Controls.Add(this.checkBox9);
-            this.groupBox3.Controls.Add(this.checkBox8);
-            this.groupBox3.Controls.Add(this.checkBox7);
+            this.groupBox3.Controls.Add(this.risBox);
+            this.groupBox3.Controls.Add(this.havreBox);
+            this.groupBox3.Controls.Add(this.pastaBox);
+            this.groupBox3.Controls.Add(this.potatisBox);
             this.groupBox3.Controls.Add(this.pictureBox6);
             this.groupBox3.Controls.Add(this.pictureBox7);
             this.groupBox3.Controls.Add(this.pictureBox8);
             this.groupBox3.Controls.Add(this.pictureBox9);
             this.groupBox3.Font = new System.Drawing.Font("Segoe UI Black", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.Location = new System.Drawing.Point(5, 5);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox3.Size = new System.Drawing.Size(392, 393);
             this.groupBox3.TabIndex = 35;
             this.groupBox3.TabStop = false;
@@ -450,49 +450,49 @@
             this.pictureBox12.TabIndex = 49;
             this.pictureBox12.TabStop = false;
             // 
-            // checkBox10
+            // risBox
             // 
-            this.checkBox10.AutoSize = true;
-            this.checkBox10.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox10.Location = new System.Drawing.Point(277, 259);
-            this.checkBox10.Name = "checkBox10";
-            this.checkBox10.Size = new System.Drawing.Size(81, 19);
-            this.checkBox10.TabIndex = 48;
-            this.checkBox10.Text = "Rice 30 kr";
-            this.checkBox10.UseVisualStyleBackColor = true;
+            this.risBox.AutoSize = true;
+            this.risBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.risBox.Location = new System.Drawing.Point(277, 259);
+            this.risBox.Name = "risBox";
+            this.risBox.Size = new System.Drawing.Size(81, 19);
+            this.risBox.TabIndex = 48;
+            this.risBox.Text = "Rice 30 kr";
+            this.risBox.UseVisualStyleBackColor = true;
             // 
-            // checkBox9
+            // havreBox
             // 
-            this.checkBox9.AutoSize = true;
-            this.checkBox9.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox9.Location = new System.Drawing.Point(16, 259);
-            this.checkBox9.Name = "checkBox9";
-            this.checkBox9.Size = new System.Drawing.Size(82, 19);
-            this.checkBox9.TabIndex = 47;
-            this.checkBox9.Text = "Oats 15 kr";
-            this.checkBox9.UseVisualStyleBackColor = true;
+            this.havreBox.AutoSize = true;
+            this.havreBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.havreBox.Location = new System.Drawing.Point(16, 259);
+            this.havreBox.Name = "havreBox";
+            this.havreBox.Size = new System.Drawing.Size(82, 19);
+            this.havreBox.TabIndex = 47;
+            this.havreBox.Text = "Oats 15 kr";
+            this.havreBox.UseVisualStyleBackColor = true;
             // 
-            // checkBox8
+            // pastaBox
             // 
-            this.checkBox8.AutoSize = true;
-            this.checkBox8.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox8.Location = new System.Drawing.Point(143, 192);
-            this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(88, 19);
-            this.checkBox8.TabIndex = 46;
-            this.checkBox8.Text = "Pasta 10 kr";
-            this.checkBox8.UseVisualStyleBackColor = true;
+            this.pastaBox.AutoSize = true;
+            this.pastaBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pastaBox.Location = new System.Drawing.Point(143, 192);
+            this.pastaBox.Name = "pastaBox";
+            this.pastaBox.Size = new System.Drawing.Size(88, 19);
+            this.pastaBox.TabIndex = 46;
+            this.pastaBox.Text = "Pasta 10 kr";
+            this.pastaBox.UseVisualStyleBackColor = true;
             // 
-            // checkBox7
+            // potatisBox
             // 
-            this.checkBox7.AutoSize = true;
-            this.checkBox7.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox7.Location = new System.Drawing.Point(16, 125);
-            this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(91, 19);
-            this.checkBox7.TabIndex = 45;
-            this.checkBox7.Text = "Potato 25 kr";
-            this.checkBox7.UseVisualStyleBackColor = true;
+            this.potatisBox.AutoSize = true;
+            this.potatisBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.potatisBox.Location = new System.Drawing.Point(16, 125);
+            this.potatisBox.Name = "potatisBox";
+            this.potatisBox.Size = new System.Drawing.Size(91, 19);
+            this.potatisBox.TabIndex = 45;
+            this.potatisBox.Text = "Potato 25 kr";
+            this.potatisBox.UseVisualStyleBackColor = true;
             // 
             // pictureBox6
             // 
@@ -539,7 +539,7 @@
             this.tabPage5.Controls.Add(this.groupBox2);
             this.tabPage5.Location = new System.Drawing.Point(4, 22);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage5.Size = new System.Drawing.Size(429, 315);
             this.tabPage5.TabIndex = 2;
             this.tabPage5.Text = "Drinks";
@@ -552,15 +552,15 @@
             this.groupBox2.Controls.Add(this.pictureBox15);
             this.groupBox2.Controls.Add(this.pictureBox14);
             this.groupBox2.Controls.Add(this.pictureBox13);
-            this.groupBox2.Controls.Add(this.checkBox15);
-            this.groupBox2.Controls.Add(this.checkBox14);
-            this.groupBox2.Controls.Add(this.checkBox12);
-            this.groupBox2.Controls.Add(this.checkBox13);
+            this.groupBox2.Controls.Add(this.celBox);
+            this.groupBox2.Controls.Add(this.sevenBox);
+            this.groupBox2.Controls.Add(this.colaBox);
+            this.groupBox2.Controls.Add(this.fantabox);
             this.groupBox2.Font = new System.Drawing.Font("Segoe UI Black", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(5, 5);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox2.Size = new System.Drawing.Size(424, 310);
             this.groupBox2.TabIndex = 24;
             this.groupBox2.TabStop = false;
@@ -606,57 +606,57 @@
             this.pictureBox13.TabIndex = 5;
             this.pictureBox13.TabStop = false;
             // 
-            // checkBox15
+            // celBox
             // 
-            this.checkBox15.AutoSize = true;
-            this.checkBox15.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox15.ForeColor = System.Drawing.Color.Black;
-            this.checkBox15.Location = new System.Drawing.Point(242, 258);
-            this.checkBox15.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.checkBox15.Name = "checkBox15";
-            this.checkBox15.Size = new System.Drawing.Size(108, 23);
-            this.checkBox15.TabIndex = 4;
-            this.checkBox15.Text = "Celsius 10 kr";
-            this.checkBox15.UseVisualStyleBackColor = true;
+            this.celBox.AutoSize = true;
+            this.celBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.celBox.ForeColor = System.Drawing.Color.Black;
+            this.celBox.Location = new System.Drawing.Point(242, 258);
+            this.celBox.Margin = new System.Windows.Forms.Padding(2);
+            this.celBox.Name = "celBox";
+            this.celBox.Size = new System.Drawing.Size(108, 23);
+            this.celBox.TabIndex = 4;
+            this.celBox.Text = "Celsius 10 kr";
+            this.celBox.UseVisualStyleBackColor = true;
             // 
-            // checkBox14
+            // sevenBox
             // 
-            this.checkBox14.AutoSize = true;
-            this.checkBox14.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox14.ForeColor = System.Drawing.Color.Black;
-            this.checkBox14.Location = new System.Drawing.Point(23, 258);
-            this.checkBox14.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.checkBox14.Name = "checkBox14";
-            this.checkBox14.Size = new System.Drawing.Size(92, 23);
-            this.checkBox14.TabIndex = 3;
-            this.checkBox14.Text = "7Up 10 kr";
-            this.checkBox14.UseVisualStyleBackColor = true;
+            this.sevenBox.AutoSize = true;
+            this.sevenBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.sevenBox.ForeColor = System.Drawing.Color.Black;
+            this.sevenBox.Location = new System.Drawing.Point(23, 258);
+            this.sevenBox.Margin = new System.Windows.Forms.Padding(2);
+            this.sevenBox.Name = "sevenBox";
+            this.sevenBox.Size = new System.Drawing.Size(92, 23);
+            this.sevenBox.TabIndex = 3;
+            this.sevenBox.Text = "7Up 10 kr";
+            this.sevenBox.UseVisualStyleBackColor = true;
             // 
-            // checkBox12
+            // colaBox
             // 
-            this.checkBox12.AutoSize = true;
-            this.checkBox12.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox12.ForeColor = System.Drawing.Color.Black;
-            this.checkBox12.Location = new System.Drawing.Point(16, 130);
-            this.checkBox12.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.checkBox12.Name = "checkBox12";
-            this.checkBox12.Size = new System.Drawing.Size(127, 23);
-            this.checkBox12.TabIndex = 2;
-            this.checkBox12.Text = "Cola Zero 10 kr";
-            this.checkBox12.UseVisualStyleBackColor = true;
+            this.colaBox.AutoSize = true;
+            this.colaBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.colaBox.ForeColor = System.Drawing.Color.Black;
+            this.colaBox.Location = new System.Drawing.Point(16, 130);
+            this.colaBox.Margin = new System.Windows.Forms.Padding(2);
+            this.colaBox.Name = "colaBox";
+            this.colaBox.Size = new System.Drawing.Size(127, 23);
+            this.colaBox.TabIndex = 2;
+            this.colaBox.Text = "Cola Zero 10 kr";
+            this.colaBox.UseVisualStyleBackColor = true;
             // 
-            // checkBox13
+            // fantabox
             // 
-            this.checkBox13.AutoSize = true;
-            this.checkBox13.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox13.ForeColor = System.Drawing.Color.Black;
-            this.checkBox13.Location = new System.Drawing.Point(242, 130);
-            this.checkBox13.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.checkBox13.Name = "checkBox13";
-            this.checkBox13.Size = new System.Drawing.Size(99, 23);
-            this.checkBox13.TabIndex = 1;
-            this.checkBox13.Text = "Fanta 10 kr";
-            this.checkBox13.UseVisualStyleBackColor = true;
+            this.fantabox.AutoSize = true;
+            this.fantabox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fantabox.ForeColor = System.Drawing.Color.Black;
+            this.fantabox.Location = new System.Drawing.Point(242, 130);
+            this.fantabox.Margin = new System.Windows.Forms.Padding(2);
+            this.fantabox.Name = "fantabox";
+            this.fantabox.Size = new System.Drawing.Size(99, 23);
+            this.fantabox.TabIndex = 1;
+            this.fantabox.Text = "Fanta 10 kr";
+            this.fantabox.UseVisualStyleBackColor = true;
             // 
             // panel2
             // 
@@ -665,7 +665,7 @@
             this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Location = new System.Drawing.Point(11, 11);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(113, 124);
             this.panel2.TabIndex = 45;
@@ -685,7 +685,7 @@
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(6, 2);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(89, 56);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -710,7 +710,7 @@
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(929, 14);
             this.panel1.TabIndex = 44;
@@ -775,12 +775,12 @@
         private System.Windows.Forms.TabControl tabControl2;
         private System.Windows.Forms.TabPage tabPage3;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.CheckBox checkBox6;
-        private System.Windows.Forms.CheckBox checkBox5;
-        private System.Windows.Forms.CheckBox checkBox4;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox gubbeBox;
+        private System.Windows.Forms.CheckBox bananBox;
+        private System.Windows.Forms.CheckBox tomatBox;
+        private System.Windows.Forms.CheckBox spenatBox;
+        private System.Windows.Forms.CheckBox äppleBox;
+        private System.Windows.Forms.CheckBox gurkaBox;
         private System.Windows.Forms.PictureBox pictureBox11;
         private System.Windows.Forms.PictureBox pictureBox10;
         private System.Windows.Forms.PictureBox pictureBox5;
@@ -791,10 +791,10 @@
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.CheckBox checkBox11;
         private System.Windows.Forms.PictureBox pictureBox12;
-        private System.Windows.Forms.CheckBox checkBox10;
-        private System.Windows.Forms.CheckBox checkBox9;
-        private System.Windows.Forms.CheckBox checkBox8;
-        private System.Windows.Forms.CheckBox checkBox7;
+        private System.Windows.Forms.CheckBox risBox;
+        private System.Windows.Forms.CheckBox havreBox;
+        private System.Windows.Forms.CheckBox pastaBox;
+        private System.Windows.Forms.CheckBox potatisBox;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.PictureBox pictureBox8;
@@ -805,10 +805,10 @@
         private System.Windows.Forms.PictureBox pictureBox15;
         private System.Windows.Forms.PictureBox pictureBox14;
         private System.Windows.Forms.PictureBox pictureBox13;
-        private System.Windows.Forms.CheckBox checkBox15;
-        private System.Windows.Forms.CheckBox checkBox14;
-        private System.Windows.Forms.CheckBox checkBox12;
-        private System.Windows.Forms.CheckBox checkBox13;
+        private System.Windows.Forms.CheckBox celBox;
+        private System.Windows.Forms.CheckBox sevenBox;
+        private System.Windows.Forms.CheckBox colaBox;
+        private System.Windows.Forms.CheckBox fantabox;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.PictureBox pictureBox1;
